@@ -10,6 +10,7 @@ import ValidationTextFields from 'pages/MaterialTest/form'
 import Dashboard from 'pages/MaterialTest/Dashboard'
 import AutocompleteExample from 'pages/Autocomplete'
 import Form from 'pages/Model/form'
+import SecuredTest from 'pages/SecuredTest'
 
 const Routes = () => {
   return (
@@ -22,6 +23,7 @@ const Routes = () => {
       <Route path="/dashboard" component={Dashboard} />
       <Route path="/autocomplete" component={AutocompleteExample} />
       <Route path="/form2" component={Form} />
+      <Route path="/secured-test" component={SecuredTest} />
       <Route path="*" component={Default} />
     </Switch>
   )
